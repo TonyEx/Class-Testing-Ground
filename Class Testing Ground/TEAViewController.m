@@ -25,24 +25,24 @@
 	NSArray *wordsInSentence = [myString componentsSeparatedByString:@" "];
 	NSMutableArray *capitalizedWords = [[NSMutableArray alloc] init];
 	
-//	NSLog(@"%@", wordsInSentence);
+	NSLog(@"%@", wordsInSentence);
 	
-//	for(int i = 0; i < [wordsInSentence count]; i++)
-//	{
-//		NSString *uncaptalizedWord = [wordsInSentence objectAtIndex:i];
-//		NSString *capitalziedWord = [uncaptalizedWord capitalizedString];
-//		[capitalizedWords addObject:capitalziedWord];
-//	}
-//	
-//	NSLog(@"%@", capitalizedWords);
+	for(int i = 0; i < [wordsInSentence count]; i++)
+	{
+		NSString *uncaptalizedWord = [wordsInSentence objectAtIndex:i];
+		NSString *capitalziedWord = [uncaptalizedWord capitalizedString];
+		[capitalizedWords addObject:capitalziedWord];
+	}
 	
-//	for(NSString *word in wordsInSentence)
-//	{
-//		NSString *capitalizedWord = [word capitalizedString];
-//		[capitalizedWords addObject:capitalizedWord];
-//	}
-//	
-//	NSLog(@"%@", capitalizedWords);
+	NSLog(@"%@", capitalizedWords);
+	
+	for(NSString *word in wordsInSentence)
+	{
+		NSString *capitalizedWord = [word capitalizedString];
+		[capitalizedWords addObject:capitalizedWord];
+	}
+	
+	NSLog(@"%@", capitalizedWords);
 	
 	TEADog *dog = [[TEADog alloc] init];
 	[dog setName:@"Sparky"];
