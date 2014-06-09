@@ -21,6 +21,7 @@
 		C7AB454919452B5800EF586F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7AB452B19452B5800EF586F /* UIKit.framework */; };
 		C7AB455119452B5800EF586F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7AB454F19452B5800EF586F /* InfoPlist.strings */; };
 		C7AB455319452B5800EF586F /* Class_Testing_GroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AB455219452B5800EF586F /* Class_Testing_GroundTests.m */; };
+		C7AB455E19452ED600EF586F /* TEADog.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AB455D19452ED600EF586F /* TEADog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C7AB454E19452B5800EF586F /* Class Testing GroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Class Testing GroundTests-Info.plist"; sourceTree = "<group>"; };
 		C7AB455019452B5800EF586F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7AB455219452B5800EF586F /* Class_Testing_GroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Class_Testing_GroundTests.m; sourceTree = "<group>"; };
+		C7AB455C19452ED600EF586F /* TEADog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEADog.h; sourceTree = "<group>"; };
+		C7AB455D19452ED600EF586F /* TEADog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEADog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				C7AB453919452B5800EF586F /* Main.storyboard */,
 				C7AB453C19452B5800EF586F /* TEAViewController.h */,
 				C7AB453D19452B5800EF586F /* TEAViewController.m */,
+				C7AB455C19452ED600EF586F /* TEADog.h */,
+				C7AB455D19452ED600EF586F /* TEADog.m */,
 				C7AB453F19452B5800EF586F /* Images.xcassets */,
 				C7AB452E19452B5800EF586F /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				C7AB453E19452B5800EF586F /* TEAViewController.m in Sources */,
 				C7AB453419452B5800EF586F /* main.m in Sources */,
 				C7AB453819452B5800EF586F /* TEAAppDelegate.m in Sources */,
+				C7AB455E19452ED600EF586F /* TEADog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
